@@ -21,7 +21,7 @@
 #include "FwBox_U8g2Widget.h"
 
 #define DEVICE_TYPE 11
-#define FIRMWARE_VERSION "1.1.8"
+#define FIRMWARE_VERSION "1.1.9"
 
 #define ANALOG_VALUE_DEBOUNCING 8
 
@@ -78,7 +78,7 @@ int DisplayMode = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //
   // Initialize the fw-box core (early stage)
